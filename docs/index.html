@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotstar - Homepage</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styless.css" />
   </head>
   <body>
     <header>
-      <div class="logo">Hotstar</div>
+      <div class="logo"><img src="Disney-Plus-Logo-Whhite-PNG@zeevector.png"></div>
+      <form action="/search" method="get">
+        <input type="search" id="search" name="q" placeholder="Search..." />
+        <button type="submit">Search</button>
+      </form>
+
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
@@ -17,20 +22,28 @@
         </ul>
       </nav>
     </header>
-    <section class="main-content">
-      <div class="banner">
-        <img src="hotstar-logo-0.jpg" alt="Banner Image" />
-      </div>
-      <div class="featured-section">
-        <h2>Featured TV Shows</h2>
-        <!-- Featured TV Shows here -->
-      </div>
-      <div class="featured-section">
-        <h2>Featured Movies</h2>
-        <!-- Featured Movies here -->
-      </div>
-    </section>
-    <footer>
+    <div class="login-container">
+      <h2>LogIn</h2>
+      <form>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit">Login</button>
+      </form>
+      <p style="text-align: center">
+        <a href="#">Forgot Password ?</a>
+      </p>
+      <p style="text-align: center">
+        <span>Don't have an account?</span> <a href="#">Register here</a>
+      </p>
+    </div>
+    
+    <footer style="text-align: center;" >
       <p>&copy; 2024 Hotstar. All rights reserved.</p>
     </footer>
   </body>
