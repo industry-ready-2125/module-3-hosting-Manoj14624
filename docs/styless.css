@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('home.jpg');
+}
+footer{
+    margin-top: 90PX;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    height: 80px;
+    width: 150px;
+}
+
+form[action="/search"] {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#search {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+}
+
+#search::placeholder {
+    color: #999;
+}
+
+#search:focus {
+    background-color: #444;
+}
+
+button[type="submit"] {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff8400;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffaa66;
+}
+
+.login-container {
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 35%;
+    
+    border: #d7cece;
+    height: 450px;
+    width: 350px;
+}
+
+.login-container h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff8400;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffaa66;
+}
+
+a {
+    color: #fff;
+    
+}
+a:hover {
+    color: #ffaa66;
+}
